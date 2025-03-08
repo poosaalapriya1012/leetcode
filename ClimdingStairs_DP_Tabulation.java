@@ -4,7 +4,7 @@ class Solution {
             return n;
         }
         int prev2=1;
-        int prev=1;
+        int prev=2;
         int curr=0;
         for(int i=2;i<=n;i++){
             curr=prev+prev2;
